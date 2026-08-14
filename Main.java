@@ -50,8 +50,12 @@ public class Main {
                     return;
 
                 default:
-                    System.out.println("Invalid choice! Please enter a number from 1 to 6.");
+                   
+                    System.out.println("Invalid choice! Please enter a number from 1
+                                    to 6.");
+                    System.out.println("Please try again.");
             }
+            
         }
     }
 
