@@ -95,7 +95,7 @@ public class Main {
         }
 
         System.out.println("\n===== Waste Records =====");
-
+System.out.println("Total Waste Records: " + wastes.size());
         for (Waste waste : wastes) {
             waste.displayWaste();
         }
